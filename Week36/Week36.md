@@ -1,12 +1,12 @@
-### GPIO
+## GPIO
 Stands for "General Purpose Input/Output." GPIO is a type of pin found on an integrated circuit that does not have a specific function. While most pins have a dedicated purpose, such as sending a signal to a certain component, the function of a GPIO pin is customizable and can be controlled by software.
 
-### Connection of IOT devices
+## Connection of IOT devices
 Not all IOT devices have direct access to internet. Instead, there are several IOT devices which make use of a gateway in order to connect them to the internet because they don't implement technologies capable of establishing a direct connection to internet.
 
-![protocols](https://imgur.com/xCyI8P8.jpg =442x246)
+![protocols](https://imgur.com/xCyI8P8.jpg)
 
-### MQTT
+## MQTT
 MQTT stands for Message Queuing Telemetry Transport. It is a lightweight publish and subscribe system where you can publish and receive messages as a client, so producer and consumer are decoupled. MQTT uses TCP to establish the connection between the clients and the server.
 
 It's designed for constrained devices with low-bandwidth. So, it’s the perfect solution for Internet of Things applications. MQTT allows you to send commands to control outputs, read and publish data from sensor nodes and much more.
@@ -32,4 +32,4 @@ CoAP is designed to interoperate with HTTP and the RESTful web at large through 
 
 Like HTTP, CoAP supports content negotiation. Clients use `Accept` options to express a preferred representation of a resource and servers reply with a `Content-Type` option to tell clients what they’re getting. As with HTTP, this allows client and server to evolve independently, adding new representations without affecting each other.
 
-CoAP requests may use query strings in the form `?a=b&c=d` . These can be used to provide search, paging and other features to clients.
+CoAP requests may use query strings in the form `?a=b&c=d` . These can be used to provide search, paging and other features
